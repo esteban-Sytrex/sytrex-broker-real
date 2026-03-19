@@ -1,0 +1,106 @@
+.demo-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.demo-page__hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.demo-page__title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 800;
+  color: var(--sytrex-blue);
+  margin: 0 0 1.5rem 0;
+}
+
+.demo-page__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, var(--sytrex-navy) 0%, var(--sytrex-teal) 100%);
+  color: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-lg);
+}
+
+.demo-page__badge-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 800;
+  font-size: 1.25rem;
+  border-radius: var(--radius);
+}
+
+.demo-page__badge-text {
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+.demo-page__badge-text strong {
+  color: var(--sytrex-blue-light);
+}
+
+.demo-page__cta-section {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.demo-page__cta-title {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+}
+
+.demo-page__highlight {
+  color: var(--sytrex-blue);
+}
+
+.demo-page__cta-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--sytrex-blue);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.demo-page__cta-btn:hover {
+  background: var(--sytrex-blue-dark);
+}
+
+.demo-page__video-section {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.demo-page__video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--sytrex-navy);
+  border: 1px solid var(--border-gray);
+  box-shadow: var(--shadow-lg);
+}
+
+.demo-page__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
