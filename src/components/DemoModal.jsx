@@ -56,7 +56,7 @@ export default function DemoModal({ isOpen, onClose }) {
         phone: form.phone.trim(),
         company: form.company.trim(),
         jobTitle: form.jobTitle.trim(),
-        program: 'MGA',
+        program: 'Broker',
       }
     try {
       if (FORM_SUBMIT_URL) {

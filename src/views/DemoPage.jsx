@@ -1,6 +1,6 @@
 import './DemoPage.css'
 
-const LOOM_EMBED_URL = 'https://www.loom.com/embed/658e29e14c3f489c84525e7e20a379a9'
+const YOUTUBE_EMBED_URL = 'https://www.youtube.com/embed/x-DkidDq7BQ'
 
 export default function DemoPage() {
   return (
@@ -9,11 +9,11 @@ export default function DemoPage() {
         <h1 className="demo-page__title">Sytrex Free Demo</h1>
         <div className="demo-page__video-wrapper">
           <iframe
-            src={LOOM_EMBED_URL}
+            src={YOUTUBE_EMBED_URL}
             className="demo-page__video"
             frameBorder="0"
             allowFullScreen
-            allow="fullscreen"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             title="Sytrex Demo"
           />
         </div>

@@ -100,6 +100,10 @@
   opacity: 1;
 }
 
+.footer__partner-logo--color {
+  filter: none;
+}
+
 .footer__copy {
   font-size: 0.8125rem;
   color: rgba(255, 255, 255, 0.6);

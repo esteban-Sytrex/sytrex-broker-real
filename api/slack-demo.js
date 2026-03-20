@@ -32,6 +32,7 @@ function buildSlackPayload(data) {
           { type: 'mrkdwn', text: `*Phone:*\n${data.phone || '—'}` },
           { type: 'mrkdwn', text: `*Company:*\n${data.company || '—'}` },
           { type: 'mrkdwn', text: `*Job Title:*\n${data.jobTitle || '—'}` },
+          { type: 'mrkdwn', text: `*Program:*\n${data.program || '—'}` },
         ],
       },
     ],
