@@ -1,0 +1,42 @@
+# Sytrex for Brokers
+
+> Sytrex helps elite broker teams replace inbox-driven placement with structured market strategy, real-time carrier capacity tracking, and automated market outreach. Built for retail and wholesale broker teams that want consistent, fast placement across every deal.
+
+## What this site is
+
+The Sytrex landing page for insurance broker teams.
+
+## Who it's for
+
+- Retail and wholesale insurance broker teams
+- Heads of placement, brokerage leadership, and producers
+- Teams that today rely on email, spreadsheets, and tribal knowledge to track markets
+
+## What Sytrex does for brokers
+
+- Replaces inbox-driven placement with a structured market strategy workflow
+- Tracks carrier capacity and appetite in real time
+- Automates outreach to markets at the right time, in the right format
+- Removes manual deal tracking across the team
+
+## Key claims
+
+- Structured market strategy in place of email chains
+- Real-time capacity tracking, not stale spreadsheets
+- Automated market outreach, not ad-hoc messaging
+- Designed for elite broker teams that handle complex placements
+
+## How it fits with existing systems
+
+Sytrex sits alongside existing AMS and broker systems and focuses on the placement and market strategy layer.
+
+## Company
+
+- Name: Sytrex
+- Website: https://www.sytrex.io
+- LinkedIn: https://www.linkedin.com/company/sytrex
+- YouTube: https://www.youtube.com/@Sytrex_Underwriting
+
+## Contact / next step
+
+Book a demo from the landing page to see Sytrex on a live deal.
