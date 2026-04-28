@@ -22,6 +22,9 @@ export default function Footer({ onBookDemo }) {
             <a href="https://www.linkedin.com/company/sytrex" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
+            <a href="https://www.youtube.com/@Sytrex_Underwriting" target="_blank" rel="noopener noreferrer">
+              YouTube
+            </a>
           </div>
         </div>
         <div className="footer__partners">
