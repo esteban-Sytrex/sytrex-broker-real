@@ -1,10 +1,20 @@
+import { Helmet } from 'react-helmet-async'
 import './DemoPage.css'
 
 const YOUTUBE_EMBED_URL = 'https://www.youtube.com/embed/x-DkidDq7BQ'
 
 export default function DemoPage() {
   return (
-    <div className="demo-page">
+    <>
+      <Helmet>
+        <title>Watch the Sytrex for Brokers Demo</title>
+        <meta name="description" content="See how reinsurance brokers move deals from submission to placement with Sytrex — automated submission capture, AI-driven market strategy, and instant slip generation. Watch the demo and book a strategy call." />
+        <link rel="canonical" href="https://brokers.sytrex.tech/demo" />
+        <meta property="og:title" content="Watch the Sytrex for Brokers Demo" />
+        <meta property="og:description" content="See structured reinsurance placement end-to-end — then book a strategy call." />
+        <meta property="og:url" content="https://brokers.sytrex.tech/demo" />
+      </Helmet>
+      <div className="demo-page">
       <section className="demo-page__hero">
         <h1 className="demo-page__title">Sytrex Free Demo</h1>
         <div className="demo-page__video-wrapper">
@@ -33,5 +43,6 @@ export default function DemoPage() {
         </a>
       </section>
     </div>
+    </>
   )
 }

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { IconClipboard, IconDatabase, IconRocket } from '../components/Icons'
 import './LandingPage.css'
 
@@ -12,7 +13,16 @@ export default function LandingPage({ onWatchDemo }) {
   }, [])
 
   return (
-    <div className="landing">
+    <>
+      <Helmet>
+        <title>Sytrex for Reinsurance Brokers — Industrialize Placement, 10× Deal Volume</title>
+        <meta name="description" content="Replace inbox-driven placement with structured market strategy, real-time capacity tracking, and automated market outreach. Built for reinsurance and elite broker teams." />
+        <link rel="canonical" href="https://brokers.sytrex.tech/" />
+        <meta property="og:title" content="Sytrex for Reinsurance Brokers" />
+        <meta property="og:description" content="How elite broker teams operate: structured market strategy, real-time capacity tracking, automated market outreach, instant slip generation." />
+        <meta property="og:url" content="https://brokers.sytrex.tech/" />
+      </Helmet>
+      <div className="landing">
       <section className="landing__hero">
         <div className="landing__hero-inner">
           <h1 className="landing__hero-title">
@@ -31,6 +41,8 @@ export default function LandingPage({ onWatchDemo }) {
                 muted
                 loop
                 playsInline
+                preload="metadata"
+                aria-label="Sytrex for Brokers product walkthrough"
               >
                 Your browser does not support the video tag.
               </video>
@@ -186,5 +198,6 @@ export default function LandingPage({ onWatchDemo }) {
         </div>
       </section>
     </div>
+    </>
   )
 }

@@ -1,12 +1,17 @@
 .header {
   position: absolute;
   background: var(--Digital-Clear, #F4F7FF);
-backdrop-filter: blur(2px);
-display: flex;
-width: 100%;
-padding: 24px 36px;
-justify-content: space-between;
-align-items: center;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  padding: 24px 36px;
+  box-sizing: border-box;
+}
+
+.header__nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {

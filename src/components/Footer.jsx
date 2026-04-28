@@ -28,10 +28,10 @@ export default function Footer({ onBookDemo }) {
           </div>
         </div>
         <div className="footer__partners">
-          <img src="/aws-startups.png" alt="AWS Startups" className="footer__partner-logo" />
-          <img src="/nvidia.png" alt="NVIDIA Inception Program" className="footer__partner-logo" />
+          <img src="/aws-startups.png" alt="AWS Startups" loading="lazy" decoding="async" className="footer__partner-logo" />
+          <img src="/nvidia.png" alt="NVIDIA Inception Program" loading="lazy" decoding="async" className="footer__partner-logo" />
           <a href="https://mgaa.co.uk/" target="_blank" rel="noopener noreferrer">
-            <img src="/mgaa.png" alt="MGAA" className="footer__partner-logo footer__partner-logo--color" />
+            <img src="/mgaa.png" alt="MGAA" loading="lazy" decoding="async" className="footer__partner-logo footer__partner-logo--color" />
           </a>
         </div>
         <p className="footer__copy">© 2025 Sytrex. All Rights Reserved.</p>
